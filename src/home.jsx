@@ -79,7 +79,7 @@ function BusinessUniverse() {
   const [leave, setLeave] = useState(null);
   const [direction, setDirection] = useState(1);
   const [mounted, setMounted] = useState(() => new Set([0, 1]));
-  const [compact, setCompact] = useState(() => window.matchMedia("(max-width: 760px)").matches);
+  const [compact, setCompact] = useState(() => window.matchMedia("(max-width: 1200px)").matches);
   const active = sectors[index];
 
   const reveal = (sectorIndex) => {
@@ -101,6 +101,14 @@ function BusinessUniverse() {
     setIndex(next);
     reveal(next);
     barRef.current?.style.setProperty("--p", String(next / (sectors.length - 1)));
+    if (window.matchMedia("(max-width: 900px)").matches) {
+      const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      document.getElementById(`sector-${sectors[next].slug}`)?.scrollIntoView({
+        inline: "center",
+        block: "nearest",
+        behavior: reduce ? "auto" : "smooth",
+      });
+    }
     if (fromScroll || compact) return;
     const section = sectionRef.current;
     if (!section) return;
@@ -114,7 +122,7 @@ function BusinessUniverse() {
   };
 
   useEffect(() => {
-    const query = window.matchMedia("(max-width: 760px)");
+    const query = window.matchMedia("(max-width: 1200px)");
     const onChange = () => setCompact(query.matches);
     query.addEventListener("change", onChange);
     return () => query.removeEventListener("change", onChange);
@@ -196,6 +204,7 @@ function BusinessUniverse() {
           </div>
           <div className="universe-detail" aria-live="polite">
             <div key={active.slug}>
+              <p className="universe-name">{active.name}</p>
               <p className="universe-line">{active.line}</p>
               <p className="universe-statement">{active.statement}</p>
               <ArrowLink href={`#/business/${active.slug}`}>Explore {active.name}</ArrowLink>
