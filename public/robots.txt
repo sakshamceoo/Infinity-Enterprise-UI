@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# LLM-readable summary of Infinity Enterprise India
+# https://infinityenterprisesindia.com/llms.txt

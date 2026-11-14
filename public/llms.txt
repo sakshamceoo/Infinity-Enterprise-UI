@@ -1,0 +1,38 @@
+# Infinity Enterprise India
+
+> Infinity Enterprise India is one enterprise operating across construction, electrical, IT and security, technology, manufacturing, waste management, sanitation, export, food processing and agri business.
+
+Infinity Enterprise India is the official name of the enterprise. On the website the wordmark reads Infinity Enterprise, with India set smaller beneath it. The public site is https://infinityenterprisesindia.com.
+
+## Identity
+
+- Name: Infinity Enterprise India
+- Also known as: Infinity Enterprise
+- Website: https://infinityenterprisesindia.com
+- Country: India
+- Email: connect@infinityenterprise.in
+- Tagline: One enterprise. Infinite possibilities.
+
+## Businesses
+
+- [Construction](https://infinityenterprisesindia.com/#/business/construction): Building the physical world.
+- [Electrical](https://infinityenterprisesindia.com/#/business/electrical): Power. Systems. Installation.
+- [IT & Security Solutions](https://infinityenterprisesindia.com/#/business/it-security): Networks. Security. Systems.
+- [Technology](https://infinityenterprisesindia.com/#/business/technology): Software. AI. Digital systems.
+- [Manufacturing](https://infinityenterprisesindia.com/#/business/manufacturing): Engineering production at scale.
+- [Waste Management](https://infinityenterprisesindia.com/#/business/waste-management): Systems for shared places.
+- [Sanitation & Hygiene](https://infinityenterprisesindia.com/#/business/sanitation): Cleaner operations. Better environments.
+- [Export](https://infinityenterprisesindia.com/#/business/export): Connecting business beyond borders.
+- [Food Processing](https://infinityenterprisesindia.com/#/business/food-processing): From raw material to product.
+- [Agri Business](https://infinityenterprisesindia.com/#/business/agri-business): From land to value.
+
+## Pages
+
+- [Home](https://infinityenterprisesindia.com/): Infinity Enterprise India. One enterprise. Infinite possibilities.
+- [About](https://infinityenterprisesindia.com/#/about): A diversified Indian enterprise. Work is published when it is real.
+- [Contact](https://infinityenterprisesindia.com/#/contact): Partner with Infinity Enterprise India. Email connect@infinityenterprise.in.
+- [Insights](https://infinityenterprisesindia.com/#/insights): Notes on technology, operations, industry and building a modern enterprise. Essays are published when they are ready.
+
+## Optional
+
+- [LLM summary](https://infinityenterprisesindia.com/llms.txt): This file.
